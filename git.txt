@@ -1,0 +1,8 @@
+$ git --version
+$ git config --global user.name "Pawan Sahu"
+$ git config --global user.email "sahu7357@gmail.com"
+$ mkdir Python_DSA  -> To create folder
+$ ls -> to check the content
+$ git init -> to make folder git repo
+$ git status -> what changes are made to the repo
+
