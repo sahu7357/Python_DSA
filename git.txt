@@ -19,7 +19,8 @@ $ git merge <branch name(feature branch)>  -> To merge feature branch (merge fea
 $ git remote -v
 $ git remote add origin https://github.com/sahu7357/Python_DSA.git
 $ git branch -M master
-$ git push -u origin master
+$ git push -u origin master  / $ git push
+
 
 .gitignore -> for files(sensitive info) you don't want to commit. Mention file names inside .gitignore
 
