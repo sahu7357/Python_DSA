@@ -1,0 +1,42 @@
+$ git --version
+$ git config --global user.name "Pawan Sahu"
+$ git config --global user.email "sahu7357@gmail.com"
+$ mkdir Python_DSA  -> To create folder
+$ ls -> to check the content
+$ git init -> to make folder git repo
+$ git status -> what changes are made to the repo
+$ git add <file>  -> to include in what will be committed (added to the staging area)
+$ git commit -m "message of commit" -> Tp commit to the repository
+$ git log -> To check no. of commits
+$ git add .  -> To add all the files to the staging area
+$ git checkout <commit hash code>  -Switch branches or restore working tree files
+$ git checkout master -> To change the branch
+$ git branch -> To list all the branches
+$ git branch <branch name>  -> To create a new branch
+$ git checkout -b <branch name>  -> Creates new branch and changes working to that branch
+$ git merge <branch name(feature branch)>  -> To merge feature branch (merge feature to dev)
+
+$ git remote -v
+$ git remote add origin https://github.com/sahu7357/Python_DSA.git
+$ git branch -M master
+$ git push -u origin master  / $ git push
+
+$ git checkout dev
+$ git push -u origin dev
+
+$ git clone <repo url>
+
+
+
+.gitignore -> for files(sensitive info) you don't want to commit. Mention file names inside .gitignore
+
+
+WORKING DIRECTORY
+	|
+     (git add)
+	|
+   STAGING AREA
+	|
+    (git commit)
+	|
+    REPOSITORY
