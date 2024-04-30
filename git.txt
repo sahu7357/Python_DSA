@@ -21,6 +21,12 @@ $ git remote add origin https://github.com/sahu7357/Python_DSA.git
 $ git branch -M master
 $ git push -u origin master  / $ git push
 
+$ git checkout dev
+$ git push -u origin dev
+
+$ git clone <repo url>
+
+
 
 .gitignore -> for files(sensitive info) you don't want to commit. Mention file names inside .gitignore
 
