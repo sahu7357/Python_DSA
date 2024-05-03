@@ -21,6 +21,8 @@ $ git remote add origin https://github.com/sahu7357/Python_DSA.git
 $ git branch -M master
 $ git push -u origin master  / $ git push
 
+git push -u origin feature_branch_name -> push to github
+
 $ git checkout dev
 $ git push -u origin dev
 
